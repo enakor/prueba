@@ -9675,7 +9675,7 @@ h3 {
 }
 .contact a:hover {
   color: #4444da;
-  transition: 0.5s ease;
+  transition: 1s ease;
 }
 
 .study {
@@ -9726,8 +9726,9 @@ h3 {
   text-decoration: none;
 }
 .cv:hover {
+  color: #fff;
+  transition: 1s ease;
   background-color: #4444da;
-  transition: 0.5s ease;
 }
 
 @media (min-width: 400px) {
@@ -9776,7 +9777,8 @@ h3 {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 0.5s ease;
+  color: #000;
+  transition: 1s ease;
   background-color: #c2c1ce;
 }
 
@@ -9786,10 +9788,11 @@ h3 {
 
 .text {
   text-align: center;
-  font-size: 20px;
   position: absolute;
   top: 35%;
   left: 30%;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 @media (min-width: 400px) {

@@ -5,8 +5,7 @@
     a {
         color: $platine;
         &:hover {
-            color: $blue;
-            transition: .5s ease;
+            @include blue;
         }
     }
 }

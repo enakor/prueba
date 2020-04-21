@@ -1,0 +1,21 @@
+@mixin cv {
+    color: $white;
+    transition: 1s ease;
+    background-color: $blue;
+}
+
+@mixin blue {
+    color: $blue;
+    transition: 1s ease;    
+}
+
+@mixin plat {
+    color: $black;
+    transition: 1s ease;
+    background-color: $platine;
+}
+
+@mixin text {
+    font-size: $small;
+    font-weight: $bold;
+}
