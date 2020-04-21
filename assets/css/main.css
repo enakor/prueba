@@ -9658,7 +9658,7 @@ h3 {
 }
 /* Colores */
 /* Size */
-body {
+.works, body {
   margin: 0;
   padding: 0;
 }
@@ -9723,6 +9723,13 @@ body {
   background-color: #4444da;
 }
 
+.opac {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .proyect {
   text-align: center;
   font-weight: 700;
@@ -9733,16 +9740,10 @@ body {
 
 .works {
   position: relative;
-  margin: 0;
-  padding: 0;
 }
 
 .opac {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   height: 100%;
   width: 100%;
   opacity: 0;
