@@ -15,6 +15,11 @@
     background-color: $platine;
 }
 
+@mixin h {
+    font-size: $x-large;
+    font-weight: $bold;
+}
+
 @mixin text {
     font-size: $small;
     font-weight: $bold;

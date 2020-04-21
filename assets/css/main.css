@@ -9665,6 +9665,13 @@ h3 {
 
 /* Font weight */
 /* Font family */
+.forma {
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 700;
+}
+
 .contact {
   color: #fff;
   background-color: #3f3c3c;
@@ -9681,6 +9688,7 @@ h3 {
 .study {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
+  font-size: 50px;
   font-weight: 700;
 }
 
@@ -9754,6 +9762,7 @@ h3 {
 
 .proyect {
   text-align: center;
+  font-size: 50px;
   font-weight: 700;
   margin: 2rem 0 2rem 0;
   font-style: italic;
