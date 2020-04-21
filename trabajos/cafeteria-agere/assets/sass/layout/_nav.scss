@@ -1,0 +1,33 @@
+.head {
+    position: relative;
+    width: 100%;
+}
+.logo {
+    float: left;
+    padding-top: 10px;
+    img {
+        width: 50px;
+        padding-left: 2rem;
+    }
+}
+.nav {
+    padding: 1rem;
+    display: inline-block;
+    .nav__menu {
+        background-color: $white;
+        color: $gray;
+    }
+    .nav__menu-item {
+        display: inline-block;
+        list-style: none;
+        padding: 0 1rem;
+        font-size: $large;
+    }
+    
+}
+.nav__submenu {
+    float: right;
+    list-style: none;
+    padding: 0 3rem;
+    
+}

@@ -1,0 +1,21 @@
+.btn-primary {
+    border: none;
+    padding: .3rem;
+    background-color: $blue;
+}
+
+.btn-primary:hover {
+    background-color: $middle;
+}
+
+.btn-primary:focus {
+    background-color: $spanish;
+}
+
+.card {
+    .btn {
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+}

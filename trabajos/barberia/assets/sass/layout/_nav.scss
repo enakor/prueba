@@ -1,0 +1,38 @@
+.logo {
+    height: 30px;
+    padding-left: 4rem;
+}
+
+.navbar-collapse {
+    padding-right: 5rem;
+}
+
+.navbar-toggler {
+    border-color: $white !important;
+}
+
+.pag {
+    background: $gray;
+    padding: 2rem 0;
+    text-align: center;
+    margin: 0;
+}
+
+ .pag a {
+    color: $nickel;
+}
+
+.page-item.active .page-link {
+    background-color: $nickel !important;
+    border-color: $nickel !important;
+}
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 2rem !important;
+    border-bottom-left-radius: 2rem !important;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+}

@@ -1,0 +1,53 @@
+.banner {
+    height: 13rem;
+    width: 100%;
+    background-image: url("../imagenes/image-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.yuki {
+    background-image: url("../imagenes/profile-image.png");
+    background-size: cover;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.author {
+    display: flex;
+    padding: 1rem 0 1rem 5rem;
+    border: 0.063rem solid $gray;
+}
+
+.follow {
+    padding-top: .5rem;
+    padding-left: .5rem;
+    p {
+        font-weight: $bold;
+        font-size: $medium;
+        margin-bottom: 0;
+    }
+}
+.boton {
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    align-items: center;
+    @media (max-width: 576px){
+        display: none;
+    }
+
+}
+.blue {
+    background-color: $isabel;
+    color: $white;
+}
+
+.pink {
+    margin-right: 8rem;
+    margin-left: 1rem;
+    background-color: $pink;
+    color: $white;
+}

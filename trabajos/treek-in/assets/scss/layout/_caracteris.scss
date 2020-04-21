@@ -1,0 +1,33 @@
+.caracteris {
+    font-family: $rale;
+    text-align: center;
+    margin: 0 9.8rem;
+    h2 {
+        padding-bottom: 4rem;
+        font-weight: $bold;
+        font-size: $xxx-large;
+    }
+}
+
+.progress {
+    padding: 0 8rem;
+    background-color: $white;
+    text-align: center;
+    height: 12rem;
+    display: block;
+    h3 {
+        padding-bottom: 1rem;
+        font-weight: $bold;
+        font-size: $xx-large;
+    }
+    p {
+        font-family: $open;
+        text-align: left;
+        font-size: $small;
+    }
+}
+
+.grafico {
+    float: left;
+    animation: opacity 4s linear 0s infinite;
+}

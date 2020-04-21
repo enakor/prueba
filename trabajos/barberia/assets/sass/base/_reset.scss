@@ -1,0 +1,15 @@
+body * {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+@media (max-width: 576px) {
+  .care-hair h1 {
+      font-size: 40px !important;
+      font-family: $play-fair;
+      padding: 0 2rem;
+  }
+  .coment {
+    display: none !important;
+  }
+}

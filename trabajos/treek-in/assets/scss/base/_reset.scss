@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 576px) {
+    .foot {
+        display: grid !important;
+        a {
+            font-size: $small;
+            padding: 0 1.5rem 0 1.5rem !important;
+        }
+        span {
+            margin: 0 !important;
+            padding-left: 3rem;
+        }
+    }
+
+    .header {
+        height: 30rem;
+        margin-bottom: 1rem;
+    }
+
+    .header h1 {
+        width: 320px !important;
+        margin: 0 !important;
+    }
+
+    .header p {
+        width: 320px !important;
+        margin: 0 !important;
+    }
+
+    .price {
+        background-image: url('../img/bg-hero.svg');
+        height: 100rem !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .caracteris, .progress {
+        width: 320px !important;
+        margin: 0 !important;
+        padding: 3rem 0 1.5rem 0 !important;
+        h3 {
+            padding-top: 1rem;
+            width: 320px;
+        }
+        .progress {
+            height: 300px;
+        }
+    }
+    .image {
+        svg {
+            position: absolute;
+            width: 400px;
+            right: 1px;
+        }
+    }
+}

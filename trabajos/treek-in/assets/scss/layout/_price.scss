@@ -1,0 +1,53 @@
+.container-fluid .price {
+    position: relative;
+}
+
+.price {
+    font-family: $rale;
+    background-image: url('../images/bg-price.svg');
+    height: 52rem;
+    text-align: center;
+    h2 {
+        padding-top: 13rem;
+        padding-bottom: 3rem;
+        color: $white;
+        font-weight: $bold;
+    }
+}
+
+.row {
+    justify-content: center;
+}
+
+.card-title {
+    font-size: $x-large;
+}
+
+.card-title__2 {
+    font-weight: $bold;
+    font-size: $xxx-large;
+    border-bottom: 1px solid $lavender;
+    padding-bottom: 1rem;
+}
+
+.card {
+    text-align: left;
+    border-radius: 0;
+    .item {
+        font-size: $small;
+        line-height: 2;
+    }
+}
+
+.card-text {
+    padding: .5rem 0 1rem 1rem;
+    border-bottom: 1px solid $lavender;
+    
+}
+br {
+    line-height: 1.7;
+}
+
+.card:hover {
+    box-shadow: -8px 32px 21px -3px;
+}

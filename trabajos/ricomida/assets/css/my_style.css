@@ -1,0 +1,124 @@
+body * {
+  margin: 0;
+  font-family: "Cabin", sans-serif;
+}
+
+.ancla {
+  display: flex;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+  font-family: Lobster;
+  font-size: 37pt;
+  text-align: center;
+  padding-left: 1.5rem;
+}
+
+.navbar-expand-lg .navbar-collapse {
+   margin-right: 8rem;
+}
+
+.newsletter {
+  text-align: center;
+  padding: 8rem 0;
+  margin-top: 4rem;
+}
+
+.new {
+  font-size: 40pt;
+}
+
+.reward {
+  font-size: 30pt;
+  padding-bottom: 2rem;
+}
+
+.card-img {
+  width: 15%;
+  vertical-align: middle;
+  margin-top: 2rem;
+}
+
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: #373A3C !important;
+}
+
+.carousel-indicators {
+  top: 180px;
+}
+
+.carousel-inner img {
+  width: 90%;
+}
+
+.carousel-inner {
+  padding: 1rem 8rem;
+}
+
+.ingredientes {
+  border-top: 2px solid;
+  margin-top: 2rem;
+  padding: 1rem 0 2rem 0;
+  border-bottom: 2px solid;
+}
+
+.title {
+font-weight: bold;
+text-align: center;
+margin: 2rem 0;
+}
+
+footer {
+  font-family: Lobster;
+  font-size: 37pt;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+@media (min-width: 576px) {
+  .d-sm-none {
+    display: none !important;
+  }
+
+  .d-sm-flex {
+    display: inline-flex !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 25pt !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .ancla a {
+    font-size: 13pt !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .new {
+    font-size: 30pt !important;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 576px) {
+  .reward {
+    font-size: 20pt !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .newsletter {
+    padding: 4rem 2rem;
+  }
+}

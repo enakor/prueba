@@ -1,0 +1,22 @@
+@import
+  'vendors/scss/bootstrap';
+  
+@import
+  'abstracts/variables',
+  'abstracts/mixing';
+
+@import
+  'base/base',
+  'base/reset',
+  'base/typography';
+
+@import
+  'layout/video',
+  'layout/header',
+  'layout/nav';
+
+@import
+  'components/buttons',
+  'components/inputs';
+
+@import url('https://fonts.googleapis.com/css?family=Cambay:400,700&display=swap');

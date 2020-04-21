@@ -1,0 +1,25 @@
+@import
+  'vendors/scss/bootstrap.scss';
+
+@import
+  'abstracts/variables',
+  'abstracts/mixing';
+
+@import
+  'base/base',
+  'base/reset',
+  'base/typography';
+
+@import
+  'layout/footer',
+  'layout/about',
+  'layout/header',
+  'layout/proyects',
+  'layout/nav';
+
+@import
+  'components/buttons',
+  'components/inputs';
+
+@import
+  url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,700&display=swap');

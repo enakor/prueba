@@ -1,0 +1,39 @@
+.hola {
+    font-style: italic;
+    font-family: $open;
+}
+
+.head {
+    background-color: $grey;
+    color: $white;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-family: $open;
+    text-shadow: 3px 3px $black;
+}
+
+.intro {
+    font-size: $x-large;
+    font-weight: $bold;
+    font-style: italic;
+}
+
+.foto {
+    height: 15rem;
+    border-radius: $large;
+    display: block;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.cv {
+    border-radius: $x-large;
+    background-color: $grey;
+    padding: .5rem;
+    a {
+        text-decoration: none;
+    }
+    &:hover {
+        background-color: $blue;
+    }
+}

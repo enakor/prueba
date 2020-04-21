@@ -1,0 +1,15 @@
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-nav {
+    font-family: $open;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $onyx;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: $silver;
+}

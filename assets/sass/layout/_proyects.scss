@@ -1,0 +1,46 @@
+.proyect {
+    text-align: center;
+    font-weight: $bold;
+    margin: 2rem 0 2rem 0;
+    font-style: italic;
+    font-family: $open;
+}
+
+.works {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .opac {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: $platine;
+  }
+  
+  .works:hover .opac {
+    opacity: 1;
+  }
+  
+  .text {
+    text-align: center;
+    font-size: $small;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    a {
+        color: $white;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+            color: $black;
+        }
+    }
+  }

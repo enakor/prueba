@@ -1,0 +1,16 @@
+.bg-color {
+    background-color: $white;
+}
+
+.navbar-light .navbar-brand {
+    font-size: $xx-large;
+    font-weight: $bold;
+    span {
+        font-size: $small;
+        vertical-align: text-top;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $black;
+}

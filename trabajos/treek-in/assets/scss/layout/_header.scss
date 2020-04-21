@@ -1,0 +1,20 @@
+.header {
+    position: relative;
+    font-family: $rale;
+    h1 {
+        position: absolute;
+        font-weight: $bold;
+        font-size: $xxxxx-large;
+        width: 25rem;
+        padding-top: 5rem;
+        float: left;
+    }
+    p {
+        font-weight: $large;
+        top: 13rem;
+        position: absolute;
+        clear: both;
+        width: 24.5rem;
+        text-align: left;
+    }
+}

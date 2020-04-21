@@ -1,0 +1,12 @@
+.contact {
+    color: $white;
+    background-color: $grey;
+    text-align: center;
+    a {
+        color: $platine;
+        &:hover {
+            color: $blue;
+            
+        }
+    }
+}

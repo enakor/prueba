@@ -1,0 +1,26 @@
+@import
+  'vendors/bootstrap/bootstrap.scss';
+  
+@import
+  'abstracts/variables',
+  'abstracts/mixing';
+
+@import
+  'base/base',
+  'base/reset',
+  'base/typography';
+
+@import
+  'layout/footer',
+  'layout/price',
+  'layout/caracteris',
+  'layout/header',
+  'layout/nav';
+
+@import
+  'components/buttons',
+  'components/inputs';
+
+@import url(
+  'https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap'
+  );
