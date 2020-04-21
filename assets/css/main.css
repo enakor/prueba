@@ -9700,6 +9700,7 @@ h3 {
 .hola {
   font-style: italic;
   font-family: "Open Sans", sans-serif;
+  text-shadow: 3px 3px #000;
 }
 
 .head {
@@ -9708,13 +9709,13 @@ h3 {
   padding-top: 3rem;
   padding-bottom: 2rem;
   font-family: "Open Sans", sans-serif;
-  text-shadow: 3px 3px #000;
 }
 
 .intro {
   font-size: 50px;
   font-weight: 700;
   font-style: italic;
+  text-shadow: 3px 3px #000;
 }
 
 .foto {
@@ -9726,17 +9727,23 @@ h3 {
 }
 
 .cv {
+  border: 2px solid #4444da;
+  display: inline;
+  text-decoration: none;
+  color: #000;
   border-radius: 50px;
-  background-color: #3f3c3c;
+  background-color: #fff;
   padding: 0.5rem;
 }
-.cv a {
-  text-decoration: none;
-}
 .cv:hover {
+  text-decoration: none;
   color: #fff;
   transition: 1s ease;
   background-color: #4444da;
+}
+
+.tech {
+  text-shadow: 3px 3px #000;
 }
 
 @media (min-width: 400px) {

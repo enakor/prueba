@@ -1,6 +1,7 @@
 .hola {
     font-style: italic;
     font-family: $open;
+    text-shadow: 3px 3px $black;
 }
 
 .head {
@@ -9,13 +10,13 @@
     padding-top: 3rem;
     padding-bottom: 2rem;
     font-family: $open;
-    text-shadow: 3px 3px $black;
 }
 
 .intro {
     font-size: $x-large;
     font-weight: $bold;
     font-style: italic;
+    text-shadow: 3px 3px $black;
 }
 
 .foto {
@@ -27,15 +28,21 @@
 }
 
 .cv {
+    border: 2px solid $blue;
+    display: inline;
+    text-decoration: none;
+    color: $black;
     border-radius: $x-large;
-    background-color: $grey;
+    background-color: $white;
     padding: .5rem;
-    a {
-        text-decoration: none;
-    }
     &:hover {
+        text-decoration: none;
         @include cv;
     }
+}
+
+.tech {
+    text-shadow: 3px 3px $black;
 }
 
 @media (min-width: 400px) {
