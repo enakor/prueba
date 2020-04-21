@@ -24,9 +24,9 @@
           color: $black;
       }
     }
-  }
+}
   
-  .opac {
+.opac {
     position: absolute;
     @extend %square;
     height: 100%;
@@ -34,16 +34,22 @@
     opacity: 0;
     transition: .5s ease;
     background-color: $platine;
-  }
+}
   
-  .works:hover .opac {
+.works:hover .opac {
     opacity: 1;
-  }
+}
   
-  .text {
+.text {
     text-align: center;
     font-size: $small;
     position: absolute;
     top: 35%;
     left: 30%;
-  }
+}
+
+@media (min-width: 400px) {
+    .traba {
+        padding: 0 .5rem 0 .5rem;
+    }
+}

@@ -9684,6 +9684,11 @@ h3 {
   font-weight: 700;
 }
 
+@media (min-width: 400px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+}
 .hola {
   font-style: italic;
   font-family: "Open Sans", sans-serif;
@@ -9787,6 +9792,11 @@ h3 {
   left: 30%;
 }
 
+@media (min-width: 400px) {
+  .traba {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+}
 .navbar-light .navbar-nav .nav-link:hover {
   color: #4444da !important;
 }

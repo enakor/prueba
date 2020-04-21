@@ -3,3 +3,9 @@
     font-style: italic;
     font-weight: $bold;
 }
+
+@media (min-width: 400px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+}
