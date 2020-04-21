@@ -35,5 +35,19 @@
     }
     &:hover {
         background-color: $blue;
+        transition: .5s ease;
+    }
+}
+
+@media (min-width: 400px) {
+    .head {
+        padding-left: .5rem;
+    }
+    .intro {
+        font-size: $large;
+    }
+    .foto {
+        height: 13rem;
+        border-radius: $large;
     }
 }

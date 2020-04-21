@@ -16,6 +16,14 @@
 .works {
     position: relative;
     @extend %reset;
+    a {
+      color: $white;
+      text-decoration: none;
+      &:hover {
+          text-decoration: none;
+          color: $black;
+      }
+    }
   }
   
   .opac {
@@ -38,12 +46,4 @@
     position: absolute;
     top: 35%;
     left: 30%;
-    a {
-        color: $white;
-        text-decoration: none;
-        &:hover {
-            text-decoration: none;
-            color: $black;
-        }
-    }
   }

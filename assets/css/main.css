@@ -9675,6 +9675,7 @@ h3 {
 }
 .contact a:hover {
   color: #4444da;
+  transition: 0.5s ease;
 }
 
 .study {
@@ -9721,8 +9722,23 @@ h3 {
 }
 .cv:hover {
   background-color: #4444da;
+  transition: 0.5s ease;
 }
 
+@media (min-width: 400px) {
+  .head {
+    padding-left: 0.5rem;
+  }
+
+  .intro {
+    font-size: 40px;
+  }
+
+  .foto {
+    height: 13rem;
+    border-radius: 40px;
+  }
+}
 .opac {
   top: 0;
   bottom: 0;
@@ -9740,6 +9756,14 @@ h3 {
 
 .works {
   position: relative;
+}
+.works a {
+  color: #fff;
+  text-decoration: none;
+}
+.works a:hover {
+  text-decoration: none;
+  color: #000;
 }
 
 .opac {
@@ -9761,14 +9785,6 @@ h3 {
   position: absolute;
   top: 35%;
   left: 30%;
-}
-.text a {
-  color: #fff;
-  text-decoration: none;
-}
-.text a:hover {
-  text-decoration: none;
-  color: #000;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
