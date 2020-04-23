@@ -47,8 +47,18 @@
     @include text;
 }
 
-@media (min-width: 400px) {
+.traba {
+    h4 {
+        font-family: $lobt;
+        font-size: $medium;
+    }
+}
+
+@media (max-width: 375px) {
     .traba {
         padding: 0 .5rem 0 .5rem;
+        h4 {
+            font-size: $small;
+        }
     }
 }
