@@ -41,6 +41,21 @@
     }
 }
 
+.home {
+    border: 2px solid $blue;
+    display: inline;
+    text-decoration: none;
+    color: $black;
+    border-radius: $x-large;
+    background-color: $blue;
+    padding: .5rem;
+    &:hover {
+        text-decoration: none;
+        @include plat;
+    }
+}
+
+
 .tech {
     text-shadow: 3px 3px $black;
 }

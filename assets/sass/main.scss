@@ -3,7 +3,7 @@
 
 @import
   'abstracts/variables',
-  'abstracts/mixing';
+  'abstracts/mixins';
 
 @import
   'base/base',
@@ -21,6 +21,3 @@
 @import
   'components/buttons',
   'components/inputs';
-
-  @import
-   url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,700,700i&display=swap');
