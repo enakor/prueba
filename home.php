@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-    <header class="head">
+    <header class="head mt-5">
       <div class="container">
         <div class="row">
           <div class="col-md-7 col-7">
@@ -36,8 +36,8 @@
           <div class="col-sm-4">
           <div class="card">
             <div class="card-body" style="height: 22.205rem;">
-              <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('card'); ?></a>
-              <h5 class="card-title p-2"><b><?php the_title(); ?></b></h5>
+                <?php the_post_thumbnail('card'); ?>
+                <h5 class="card-title p-2"><b><?php the_title(); ?></b></h5>
               <p class="card-text"><?php the_excerpt(); ?></p>
             </div>
           </div>
@@ -57,7 +57,7 @@
         <div class="row">
           <figure class="col-6 col-md-3 works">
             <img class="w-100 h-auto" src="<?php echo get_theme_file_uri('assets/img/giggeo.png'); ?>" alt="Giggeo app">
-            <a href="trabajos/gigeoapp/index.html" target="_blank">
+            <a href="<?php echo get_theme_file_uri() ?>/trabajos/gigeoapp/index.html" target="_blank">
               <figcaption class="opac">
                 <h4 class="text">Giggeo app</h4>
               </figcaption>
@@ -65,7 +65,7 @@
           </figure>
           <figure class="col-6 col-md-3 works">
             <img class="w-100 h-auto" src="<?php echo get_theme_file_uri('assets/img/barber.png'); ?>" alt="Barber shop">
-            <a href="trabajos/barberia/index.html" target="_blank">
+            <a href="<?php echo get_theme_file_uri() ?>/trabajos/barberia/index.html" target="_blank">
               <figcaption class="opac">
                 <h4 class="text">Barber Shop</h4>
               </figcaption>
@@ -73,7 +73,7 @@
           </figure>
           <figure class="col-6 col-md-3 works">
             <img class="w-100 h-auto" src="<?php echo get_theme_file_uri('assets/img/suricata.png'); ?>" alt="Suricata page">
-            <a href="trabajos/suricata/index.html" target="_blank">
+            <a href="<?php echo get_theme_file_uri() ?>/trabajos/suricata/index.html" target="_blank">
               <figcaption class="opac">
                 <h4 class="text">Suricata Page</h4>
               </figcaption>
@@ -81,7 +81,7 @@
           </figure>
           <figure class="col-6 col-md-3 works">
             <img class="w-100 h-auto" src="<?php echo get_theme_file_uri('assets/img/trekk.png'); ?>" alt="Trekk-in page">
-            <a href="trabajos/treek-in/index.html" target="_blank">
+            <a href="<?php echo get_theme_file_uri() ?>/trabajos/treek-in/index.html" target="_blank">
               <figcaption class="opac">
                 <h4 class="text">Treek-in</h4>
               </figcaption>
@@ -89,7 +89,7 @@
           </figure>
           <figure class="col-6 col-md-3 works">
             <img class="w-100 h-auto" src="<?php echo get_theme_file_uri('assets/img/ricomida.png'); ?>" alt="Ricomida page">
-            <a href="trabajos/ricomida/index.html" target="_blank">
+            <a href="<?php echo get_theme_file_uri() ?>/trabajos/ricomida/index.html" target="_blank">
               <figcaption class="opac">
                 <h4 class="text">Ricomida</h4>
               </figcaption>
@@ -97,7 +97,7 @@
           </figure>
           <figure class="col-6 col-md-3 works">
             <img class="w-100 h-auto" src="<?php echo get_theme_file_uri('assets/img/cafe.png'); ?>" alt="Cafe agere">
-            <a href="trabajos/cafeteria-agere/index.html" target="_blank">
+            <a href="<?php echo get_theme_file_uri() ?>/trabajos/cafeteria-agere/index.html" target="_blank">
               <figcaption class="opac">
                 <h4 class="text">Cafeteria Agere</h4>
               </figcaption>
@@ -105,7 +105,7 @@
           </figure>
           <figure class="col-6 col-md-3 works">
             <img class="w-100 h-auto" src="<?php echo get_theme_file_uri('assets/img/cuppon.png'); ?>" alt="Cuppon page">
-            <a href="trabajos/cuppon/index.html" target="_blank">
+            <a href="<?php echo get_theme_file_uri() ?>/trabajos/cuppon/index.html" target="_blank">
               <figcaption class="opac">
                 <h4 class="text">Cuppon Page</h4>
               </figcaption>
@@ -113,7 +113,7 @@
           </figure>
           <figure class="col-6 col-md-3 works">
             <img class="w-100 h-auto" src="<?php echo get_theme_file_uri('assets/img/olivia.png'); ?>" alt="Olivia Ros">
-              <a href="trabajos/olivia-ros/index.html" target="_blank">
+              <a href="<?php echo get_theme_file_uri() ?>/trabajos/olivia-ros/index.html" target="_blank">
                 <figcaption class="opac">
                   <h4 class="text">Olivia Ros</h4>
                 </figcaption>
@@ -123,7 +123,7 @@
       </div>
     </section>
 
-<div class="container">
+<div id="contact" class="container">
   <h4 class="forma">
     Contactame
   </h4>

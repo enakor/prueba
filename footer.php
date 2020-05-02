@@ -2,7 +2,7 @@
 	<?php wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container_class' => 'footer-menu' ) ); ?>
 <?php } ?>
 
-<footer class="contact" id="contacto">
+<footer class="contact">
 	<h4 class="p-4"><b>Me puedes encontrar en</b></h4>
     	<div class="container">
         	<a href="https://github.com/enakor/" target="_blank"><i class="fab fa-github-square fa-3x p-2"></i></a>
