@@ -9,7 +9,8 @@
         	<a href="https://www.facebook.com/juan.fuentes.7773" target="_blank"><i class="fab fa-facebook-square fa-3x p-2"></i></a>
         	<a href="https://www.linkedin.com/in/juan-guillermo-fuentes-carvajal-455258197/" target="_blank"><i class="fab fa-linkedin fa-3x p-2"></i></a>
         	<a href="https://www.instagram.com/rosencrazt/?hl=es-la" target="_blank"><i class="fab fa-instagram-square fa-3x p-2"></i></a>
-    	</div>
+		</div>
+		<p>&copy; 2020 Juan Fuentes</p>
 </footer>
 
 <?php wp_footer() ?>

@@ -202,6 +202,7 @@
   .navbar-nav {
     .nav-link {
       color: $white;
+      font-size: 20px;
 
       @include hover-focus {
         color: $navbar-light-hover-color;
