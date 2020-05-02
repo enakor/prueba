@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top" role="navigation">
 	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
-		<a class="navbar-brand text-white ml-5" href="<?php bloginfo('url') ?>"><?php get_template_part('_includes/portafolio', 'nav') ?><b>JG</b></a>
+		<a class="navbar-brand text-white ml-5" href="<?php bloginfo('url') ?>"><b>JG</b></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
