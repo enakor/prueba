@@ -9679,6 +9679,9 @@ h3 {
   background-color: #3f3c3c;
   text-align: center;
 }
+.contact h4 {
+  font-size: 40px;
+}
 .contact a {
   color: #c2c1ce;
 }
